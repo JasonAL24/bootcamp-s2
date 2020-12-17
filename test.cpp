@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int n;
-    scanf("%d", &n);
-    printf("Hello Person number %d\n", n);
+    char s[255];
+    scanf("%[^\n]", s);
+    printf("Hello %s!\n", s);
     
     return 0;
 }
